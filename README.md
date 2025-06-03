@@ -8,7 +8,7 @@
 [![React](https://img.shields.io/badge/React-v18+-blue.svg)](https://reactjs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-v4+-green.svg)](https://www.mongodb.com/)
 
-[Live Demo](https://your-demo-url.com) • [Documentation](https://your-docs-url.com) • [Report Bug](https://github.com/yourusername/chargeglobal/issues) • [Request Feature](https://github.com/yourusername/chargeglobal/issues)
+[Live Demo](https://charge-global-ev-charging-station-m-psi.vercel.app/) • [Documentation](https://your-docs-url.com) • [Report Bug](https://github.com/yourusername/chargeglobal/issues) • [Request Feature](https://github.com/yourusername/chargeglobal/issues)
 
 </div>
 
