@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const ChargingStation = require("../Models/ChargingStation");
+const ChargingStation = require("../models/ChargingStation");
 const ensureAuthenticated = require("../Middlewares/Auth");
 
 // CREATE - Add new charging station
