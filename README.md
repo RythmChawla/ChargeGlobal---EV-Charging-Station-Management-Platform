@@ -261,7 +261,7 @@ fetch('http://localhost:8080/api/stations', {
 
 **Project Link**: [Github](https://github.com/RythmChawla/ChargeGlobal---EV-Charging-Station-Management-Platform/)
 
-**Live Demo**: [https://chargeglobal-demo.vercel.app](https://chargeglobal-demo.vercel.app)
+**Live Demo**: [https://charge-global-ev-charging-station-m-psi.vercel.app/](https://charge-global-ev-charging-station-m-psi.vercel.app/)
 
 ## 🙏 Acknowledgments
 
