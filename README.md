@@ -47,15 +47,11 @@ ChargeGlobal is a full-stack web application designed to revolutionize the manag
 
 ### 🏢 Business Features
 - **Station Management**: Complete CRUD operations for charging stations
-- **Analytics Dashboard**: Comprehensive statistics and insights
-- **User Management**: Role-based access control
 - **Bulk Operations**: Manage multiple stations efficiently
 - **API Access**: RESTful API for third-party integrations
-- **Custom Branding**: White-label solutions for enterprises
 
 ### 🔧 Technical Features
 - **Geospatial Queries**: MongoDB-powered location-based searches
-- **Real-time Updates**: WebSocket integration for live data
 - **Responsive Design**: Mobile-first approach
 - **Security**: JWT authentication and data encryption
 - **Performance**: Optimized queries and caching
@@ -97,8 +93,8 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/yourusername/chargeglobal.git
-   cd chargeglobal
+   git clone https://github.com/RythmChawla/ChargeGlobal---EV-Charging-Station-Management-Platform.git
+   cd ChargeGlobal---EV-Charging-Station-Management-Platform
    \`\`\`
 
 2. **Install Backend Dependencies**
@@ -109,7 +105,7 @@ Before you begin, ensure you have the following installed:
 
 3. **Install Frontend Dependencies**
    \`\`\`bash
-   cd ../frontend
+   cd frontend
    npm install
    \`\`\`
 
@@ -136,15 +132,6 @@ Before you begin, ensure you have the following installed:
    \`\`\`env
    REACT_APP_API_URL=http://localhost:8080/api
    REACT_APP_MAP_API_KEY=your-map-api-key
-   \`\`\`
-
-5. **Start MongoDB**
-   \`\`\`bash
-   # Using MongoDB service
-   sudo systemctl start mongod
-   
-   # Or using MongoDB directly
-   mongod
    \`\`\`
 
 6. **Run the Application**
@@ -267,70 +254,6 @@ fetch('http://localhost:8080/api/stations', {
 }
 \`\`\`
 </details>
-
-## 📁 Project Structure
-
-\`\`\`
-chargeglobal/
-├── 📁 backend/
-│   ├── 📁 controllers/
-│   │   ├── authController.js
-│   │   └── stationController.js
-│   ├── 📁 middleware/
-│   │   ├── auth.js
-│   │   └── validation.js
-│   ├── 📁 models/
-│   │   ├── User.js
-│   │   └── ChargingStation.js
-│   ├── 📁 routes/
-│   │   ├── auth.js
-│   │   └── stations.js
-│   ├── 📁 utils/
-│   │   └── database.js
-│   ├── .env
-│   ├── server.js
-│   └── package.json
-├── 📁 frontend/
-│   ├── 📁 public/
-│   │   ├── index.html
-│   │   └── favicon.ico
-│   ├── 📁 src/
-│   │   ├── 📁 components/
-│   │   │   ├── 📁 common/
-│   │   │   │   └── Header.jsx
-│   │   │   ├── 📁 public/
-│   │   │   │   ├── HeroSection.jsx
-│   │   │   │   ├── FeaturesSection.jsx
-│   │   │   │   └── PublicHomePage.jsx
-│   │   │   ├── 📁 business/
-│   │   │   │   ├── DashboardStats.jsx
-│   │   │   │   ├── StationGrid.jsx
-│   │   │   │   └── BusinessDashboard.jsx
-│   │   │   └── 📁 filters/
-│   │   │       ├── SearchFilters.jsx
-│   │   │       └── FilterPanel.jsx
-│   │   ├── 📁 pages/
-│   │   │   ├── About.jsx
-│   │   │   ├── Pricing.jsx
-│   │   │   ├── Support.jsx
-│   │   │   └── FindStations.jsx
-│   │   ├── 📁 styles/
-│   │   │   ├── Home.css
-│   │   │   ├── login.css
-│   │   │   └── components/
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── utils.js
-│   ├── .env
-│   └── package.json
-├── 📁 docs/
-│   ├── API.md
-│   └── DEPLOYMENT.md
-├── .gitignore
-├── README.md
-└── LICENSE
-\`\`\`
-
 
 ## 📞 Contact
 
