@@ -4,7 +4,7 @@ const cors = require('cors');
 const AuthRouter = require('./Routes/AuthRouter');
 const chargingStations = require('./Routes/chargingStations'); // or ProductRouter
 require('dotenv').config();
-require('./Models/db'); // connect MongoDB
+require('./models/db'); // connect MongoDB
 
 const PORT = process.env.PORT || 8080;
 
